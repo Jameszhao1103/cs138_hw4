@@ -1,2 +1,5 @@
 start: q0
-accepting: {q2,q4}
+accepting: {q2}
+
+q0 (_,_ -> $,q1)
+q1 (_,_ -> $,q2)
